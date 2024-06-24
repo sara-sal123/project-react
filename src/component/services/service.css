@@ -1,0 +1,125 @@
+
+
+.allServices {
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100vw;
+    background-color: rgb(206, 198, 198);
+}
+
+.card {
+    width: 50%;
+    color: rgb(214, 214, 214);
+    background-color: rgb(87, 87, 87);
+    margin: auto;
+    border-top: 10px solid #bebe5e;
+}
+
+.serviceName {
+    margin: 0;
+    padding-top: 20px;
+}
+
+.aboutService {
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.addService {
+    width: 70vw;
+}
+
+
+
+.serviceForUser {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(58, 58, 2);
+    width: 19rem;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    transform: scale(1);
+    transition: transform 0.3s, scale 0.3s;
+    margin-top: 3rem;
+
+}
+
+
+.serviceForUser:hover {
+    transform: scale(1.3);
+}
+
+.serviceForUser button {
+    color: rgb(134, 134, 34);
+    width: 7rem;
+    margin: auto;
+    background-color: rgb(71, 66, 66);
+}
+
+.serviceForUser p {
+    font-size: 13px;
+}
+
+.ServiceListForUser {
+    margin-top: 0%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 5rem;
+
+
+
+}
+
+.titleServiceList {
+    color: rgb(134, 134, 34);
+    height: auto;
+    width: 100%;
+    background-color: rgb(210, 206, 206);
+
+}
+
+.titleServiceList h1 {
+    margin-top: 0%;
+    margin-left: 6rem;
+    font-size: 40px;
+    padding: 2rem;
+}
+
+.iconOfAddService {
+    position: absolute;
+    top: 17rem;
+    left: 15rem;
+    z-index: 0;
+}
+
+/* רספונסיביות */
+/* טאבלט */
+@media screen and (max-width: 1200px) {
+    .serviceForUser {
+        margin: auto;
+        margin-top: 2rem;
+    }
+    .titleServiceList h1 {
+        margin: auto;
+    }
+    .ServiceListForUser {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* פלאפון */
+@media screen and (max-width: 600px) {
+    .titleServiceList h1 {
+        margin: auto;
+    }
+
+    .serviceForUser {
+        margin: auto;
+        margin-top: 2rem;
+    }
+
+    .ServiceListForUser {
+        grid-template-columns: 1fr;
+    }
+}

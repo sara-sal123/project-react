@@ -1,0 +1,12 @@
+.mainOfAdmin {
+    height: 30vh;
+    background-color: rgb(206, 198, 198);
+ 
+}
+
+.mainOfAdmin Button {
+    background-color: rgb(69, 69, 60);
+   width: 6rem;
+   height: 3rem;
+   margin: 1rem;
+}

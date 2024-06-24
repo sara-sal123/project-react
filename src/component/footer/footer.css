@@ -1,0 +1,116 @@
+.footer-top{
+    width: 100vw;
+    background-color: rgb(32, 30, 30);
+    justify-content: space-around;
+    direction: rtl;
+    height: 40vh;
+    margin:0;
+}
+.ulFooter{
+list-style: none;
+}
+.ulFooter li{
+    margin: 20px;
+    text-align:center;
+    font-size: 13px;
+}
+.ulFooter a{
+    color: rgb(183, 174, 174);
+   
+}
+.ulFooter a:hover{
+    color: rgb(232, 232, 69);
+}
+.ulFooter div{
+    color: rgb(183, 174, 174);
+}
+.ulFooter h3{
+    color: rgb(232, 232, 69);
+}
+.ulFooter button{
+    width: 7rem;
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    padding: 4%;
+    margin-right: 3rem;
+}
+.ulFooter button:hover{
+    background-color: rgb(108, 99, 99);
+    color: antiquewhite;
+}
+.ulFooter button div span{
+    color: black;
+    text-align: end;
+}
+.ulFooter button .span1{
+    font-size: 7px;
+}
+.ulFooter button i{
+margin-top: auto;
+padding: 0%;
+
+
+
+
+}
+.Accessible{
+    position: fixed;
+    z-index: 1;
+    top: 32rem;
+    left: 1rem;
+}
+
+
+.Accessible button{
+    background-color: rgb(174, 180, 185);
+   width: 3rem;
+   height: 1.5rem;
+   font-size: 10px;
+ margin-top: 2rem;
+}
+.Accessible button:hover{
+    background-color: rgb(54, 52, 52);
+    color: antiquewhite;
+    border: 0ch;
+}
+.Accessible a{
+    color: rgb(88, 88, 76);
+    margin: 0.5rem;
+}
+.iconGooglePlay{
+    display: flex;
+    flex-direction: column;
+}
+.BussinessData{
+    background-color: rgb(8, 7, 7);
+  margin: 0;
+    width: 100%;
+    height: 10vh;
+}
+.BussinessData ul{
+display: flex;
+flex-direction: row;
+justify-content:center;
+margin: 0%;
+}
+/* רספונסיביות */
+/* טאבלט */
+@media screen and (max-width: 1200px) {
+    .footer-top{
+        height: 80vh;
+    }
+    .BussinessData{
+        height: 15vh;
+    }
+}
+/* פלאפון */
+@media screen and (max-width: 600px) {
+   
+    .footer-top{
+        height: 150vh;
+    }
+    .BussinessData{
+        height: 20vh;
+    }
+}

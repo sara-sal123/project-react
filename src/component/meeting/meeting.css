@@ -1,0 +1,22 @@
+
+.cardMeeting {
+    width: 50%;
+    color: rgb(214, 214, 214);
+    background-color: rgb(87, 87, 87);
+    margin: auto;
+    border-top: 10px solid #bebe5e;
+}
+.cardOfMeeting {
+    width: 50%;
+    color: rgb(214, 214, 214);
+    background-color: rgb(87, 87, 87);
+    margin: auto;
+    border-top: 10px solid #bebe5e;
+}
+.allMeetings {
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100vw;
+    background-color: rgb(206, 198, 198);
+  
+}
